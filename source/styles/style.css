@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Constantine";
+  src: url("source/fonts/Constantine.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: Constantine;
+}
+
+body {
+  background-color: #C1C1BE;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.navbar-nav-links {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.navbar-nav-right {
+}
+
+.navbar-nav-routes {
+  margin-right: 40px;
+}
+
+.nav-link:hover {
+  color: brown;
+}
+
+.girl-img {
+  height: 800px
+}
+
+@media (max-width: 576px) {
+  .girl-img {
+    height: 500px;
+  }
+}
